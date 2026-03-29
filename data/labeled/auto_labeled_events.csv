@@ -1,0 +1,200 @@
+event_id,site_id,start_date,end_date,peak_date,duration_days,peak_zscore,mean_zscore,detection_methods,vote_count_max,auto_label,auto_confidence,auto_reasoning
+EVT-00001,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2023-12-27,2023-12-27,2023-12-27,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00002,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2024-03-12,2024-03-12,2024-03-12,1,0.0,0.0,"rolling_zscore,pelt_changepoint",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00003,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2024-06-25,2024-06-27,2024-06-25,3,0.0,0.0,"pelt_changepoint,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00004,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2024-08-08,2024-08-08,2024-08-08,1,0.0,0.0,"rolling_zscore,stl_residual,cusum_trend",3,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00005,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2024-09-10,2024-09-10,2024-09-10,1,0.0,0.0,"rolling_zscore,stl_residual,pelt_changepoint,cusum_trend",4,environmental,0.6,降雨 42mm，临床数据无对应变化
+EVT-00006,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2025-01-02,2025-01-02,2025-01-02,1,0.0,0.0,"rolling_zscore,pelt_changepoint,cusum_trend",3,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00007,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2025-01-30,2025-01-30,2025-01-30,1,0.0,0.0,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00008,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2025-02-04,2025-02-04,2025-02-04,1,0.0,0.0,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00009,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2025-07-03,2025-07-03,2025-07-03,1,0.0,0.0,"pelt_changepoint,cusum_trend",2,environmental,0.6,降雨 37mm，临床数据无对应变化
+EVT-00010,CDC_VERILY_fl_2503_Treatment plant_post grit removal,2025-08-28,2025-08-28,2025-08-28,1,0.0,0.0,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00011,NWSS_az_1059_Treatment plant_raw wastewater,2022-02-28,2022-02-28,2022-02-28,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00012,NWSS_az_1059_Treatment plant_raw wastewater,2024-05-20,2024-05-20,2024-05-20,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00013,NWSS_ga_2699_Treatment plant_raw wastewater,2022-06-05,2022-06-06,2022-06-05,2,0.0,0.0,"stl_residual,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00014,NWSS_ga_2699_Treatment plant_raw wastewater,2022-08-07,2022-08-07,2022-08-07,1,0.0,0.0,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00015,NWSS_ga_2699_Treatment plant_raw wastewater,2022-11-13,2022-11-13,2022-11-13,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00016,NWSS_ga_2699_Treatment plant_raw wastewater,2023-03-13,2023-03-13,2023-03-13,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00017,NWSS_ga_2699_Treatment plant_raw wastewater,2023-05-22,2023-05-22,2023-05-22,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00018,NWSS_ga_2699_Treatment plant_raw wastewater,2024-01-15,2024-01-15,2024-01-15,1,0.0,0.0,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00019,NWSS_ga_2699_Treatment plant_raw wastewater,2024-01-28,2024-01-28,2024-01-28,1,0.0,0.0,"stl_residual,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00020,NWSS_ga_2699_Treatment plant_raw wastewater,2024-04-14,2024-04-15,2024-04-14,2,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00021,NWSS_ga_2699_Treatment plant_raw wastewater,2024-06-16,2024-06-16,2024-06-16,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00022,NWSS_ga_2699_Treatment plant_raw wastewater,2025-02-02,2025-02-02,2025-02-02,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00023,NWSS_ga_2699_Treatment plant_raw wastewater,2025-03-16,2025-03-16,2025-03-16,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00024,NWSS_ga_2699_Treatment plant_raw wastewater,2025-06-23,2025-06-23,2025-06-23,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00025,NWSS_il_639_Treatment plant_raw wastewater,2022-03-15,2022-03-15,2022-03-15,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00026,NWSS_il_639_Treatment plant_raw wastewater,2022-06-09,2022-06-09,2022-06-09,1,2.192265115037436,2.192265115037436,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00027,NWSS_il_639_Treatment plant_raw wastewater,2022-06-21,2022-06-21,2022-06-21,1,2.0366313594224614,2.0366313594224614,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00028,NWSS_il_639_Treatment plant_raw wastewater,2022-09-25,2022-09-25,2022-09-25,1,1.6804720591902114,1.6804720591902114,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00029,NWSS_il_639_Treatment plant_raw wastewater,2022-10-18,2022-10-18,2022-10-18,1,1.541290865647734,1.541290865647734,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00030,NWSS_il_639_Treatment plant_raw wastewater,2023-01-26,2023-01-26,2023-01-26,1,1.438123087539186,1.438123087539186,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00031,NWSS_il_639_Treatment plant_raw wastewater,2023-02-26,2023-02-26,2023-02-26,1,1.6371828425630017,1.6371828425630017,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00032,NWSS_il_639_Treatment plant_raw wastewater,2023-05-07,2023-05-07,2023-05-07,1,1.536207886045297,1.536207886045297,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00033,NWSS_il_639_Treatment plant_raw wastewater,2023-07-04,2023-07-04,2023-07-04,1,1.4674722622840344,1.4674722622840344,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00034,NWSS_il_639_Treatment plant_raw wastewater,2023-11-05,2023-11-05,2023-11-05,1,1.429162543062484,1.429162543062484,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00035,NWSS_il_639_Treatment plant_raw wastewater,2023-11-21,2023-11-21,2023-11-21,1,0.6087860513069958,0.6087860513069958,"rolling_zscore,stl_residual",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00036,NWSS_il_639_Treatment plant_raw wastewater,2024-03-12,2024-03-14,2024-03-12,3,1.6948530517033746,0.8474265258516873,"stl_residual,pelt_changepoint",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00037,NWSS_il_639_Treatment plant_raw wastewater,2024-12-15,2024-12-15,2024-12-15,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00038,NWSS_il_639_Treatment plant_raw wastewater,2025-02-12,2025-02-12,2025-02-12,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00039,NWSS_il_639_Treatment plant_raw wastewater,2025-05-04,2025-05-04,2025-05-04,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00040,NWSS_il_639_Treatment plant_raw wastewater,2025-06-01,2025-06-01,2025-06-01,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00041,NWSS_mn_2245_Treatment plant_raw wastewater,2023-05-03,2023-05-03,2023-05-03,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00042,NWSS_mn_2245_Treatment plant_raw wastewater,2023-09-06,2023-09-06,2023-09-06,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00043,NWSS_mn_2245_Treatment plant_raw wastewater,2023-11-01,2023-11-01,2023-11-01,1,0.0,0.0,"stl_residual,cusum_trend",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00044,NWSS_mn_2245_Treatment plant_raw wastewater,2023-12-26,2023-12-26,2023-12-26,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00045,NWSS_mn_2245_Treatment plant_raw wastewater,2024-02-20,2024-02-20,2024-02-20,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00046,NWSS_mn_2245_Treatment plant_raw wastewater,2024-03-27,2024-03-27,2024-03-27,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00047,NWSS_mn_2245_Treatment plant_raw wastewater,2024-08-12,2024-08-12,2024-08-12,1,0.0,0.0,"stl_residual,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00048,NWSS_mn_2245_Treatment plant_raw wastewater,2024-09-03,2024-09-03,2024-09-03,1,0.0,0.0,"rolling_zscore,stl_residual,cusum_trend",3,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00049,NWSS_mn_2245_Treatment plant_raw wastewater,2025-01-27,2025-01-27,2025-01-27,1,0.9841561228157656,0.9841561228157656,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00050,NWSS_mn_2245_Treatment plant_raw wastewater,2025-06-18,2025-06-18,2025-06-18,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00051,NWSS_mt_977_Treatment plant_raw wastewater,2021-02-24,2021-02-24,2021-02-24,1,0.0,0.0,"rolling_zscore,stl_residual",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00052,NWSS_mt_977_Treatment plant_raw wastewater,2021-08-04,2021-08-04,2021-08-04,1,0.0,0.0,"rolling_zscore,stl_residual",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00053,NWSS_mt_977_Treatment plant_raw wastewater,2022-02-23,2022-02-23,2022-02-23,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00054,NWSS_mt_977_Treatment plant_raw wastewater,2023-02-01,2023-02-01,2023-02-01,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00055,NWSS_mt_977_Treatment plant_raw wastewater,2023-12-26,2023-12-26,2023-12-26,1,0.0,0.0,"rolling_zscore,stl_residual,cusum_trend",3,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00056,NWSS_mt_977_Treatment plant_raw wastewater,2024-03-05,2024-03-05,2024-03-05,1,0.0,0.0,"rolling_zscore,stl_residual",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00057,NWSS_mt_977_Treatment plant_raw wastewater,2024-08-20,2024-08-20,2024-08-20,1,0.0,0.0,"rolling_zscore,stl_residual,cusum_trend",3,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00058,NWSS_mt_977_Treatment plant_raw wastewater,2024-10-22,2024-10-22,2024-10-22,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00059,NWSS_nc_1611_Treatment plant_raw wastewater,2023-03-16,2023-03-16,2023-03-16,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00060,NWSS_nc_1611_Treatment plant_raw wastewater,2023-03-21,2023-03-21,2023-03-21,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00061,NWSS_nc_1611_Treatment plant_raw wastewater,2023-09-07,2023-09-07,2023-09-07,1,0.0,0.0,"rolling_zscore,cusum_trend",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00062,NWSS_nc_1611_Treatment plant_raw wastewater,2024-02-13,2024-02-13,2024-02-13,1,0.0,0.0,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00063,NWSS_nc_1611_Treatment plant_raw wastewater,2024-04-30,2024-04-30,2024-04-30,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00064,NWSS_nc_1611_Treatment plant_raw wastewater,2024-07-04,2024-07-04,2024-07-04,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00065,NWSS_nc_1611_Treatment plant_raw wastewater,2024-07-30,2024-07-30,2024-07-30,1,0.0,0.0,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00066,NWSS_nc_1611_Treatment plant_raw wastewater,2024-12-26,2024-12-26,2024-12-26,1,0.0,0.0,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00067,NWSS_nc_1611_Treatment plant_raw wastewater,2025-02-11,2025-02-13,2025-02-11,3,0.0,0.0,"rolling_zscore,stl_residual,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00068,NWSS_nc_1611_Treatment plant_raw wastewater,2025-04-24,2025-04-24,2025-04-24,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00069,NWSS_nc_1611_Treatment plant_raw wastewater,2025-05-01,2025-05-01,2025-05-01,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00070,NWSS_nc_1611_Treatment plant_raw wastewater,2025-07-08,2025-07-08,2025-07-08,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00071,NWSS_nc_1611_Treatment plant_raw wastewater,2025-08-21,2025-08-21,2025-08-21,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00072,NWSS_nv_554_Treatment plant_90_raw wastewater,2021-11-15,2021-11-16,2021-11-15,2,2.59819294071005,2.373167305194658,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00073,NWSS_nv_554_Treatment plant_90_raw wastewater,2022-01-11,2022-01-13,2022-01-11,3,2.261710061512256,2.021961717543966,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00074,NWSS_nv_554_Treatment plant_90_raw wastewater,2022-01-18,2022-01-18,2022-01-18,1,2.0140962229108426,2.0140962229108426,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00075,NWSS_nv_554_Treatment plant_90_raw wastewater,2022-03-03,2022-03-03,2022-03-03,1,2.443894644823896,2.443894644823896,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00076,NWSS_nv_554_Treatment plant_90_raw wastewater,2022-03-17,2022-03-17,2022-03-17,1,2.4821264185335776,2.4821264185335776,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00077,NWSS_nv_554_Treatment plant_90_raw wastewater,2022-04-07,2022-04-07,2022-04-07,1,0.4821732357166822,0.4821732357166822,"stl_residual,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00078,NWSS_nv_554_Treatment plant_90_raw wastewater,2022-06-17,2022-06-20,2022-06-20,4,2.303941920587568,1.6508615369864288,"rolling_zscore,stl_residual,pelt_changepoint",3,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00079,NWSS_nv_554_Treatment plant_90_raw wastewater,2022-07-07,2022-07-07,2022-07-07,1,2.2029172794647707,2.2029172794647707,"rolling_zscore,cusum_trend",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00080,NWSS_nv_554_Treatment plant_90_raw wastewater,2022-11-09,2022-11-09,2022-11-09,1,2.1722177532202873,2.1722177532202873,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00081,NWSS_nv_554_Treatment plant_90_raw wastewater,2023-06-20,2023-06-20,2023-06-20,1,2.5252217159773767,2.5252217159773767,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00082,NWSS_nv_554_Treatment plant_90_raw wastewater,2023-11-23,2023-11-23,2023-11-23,1,2.520711151835694,2.520711151835694,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00083,NWSS_nv_554_Treatment plant_90_raw wastewater,2024-02-15,2024-02-15,2024-02-15,1,2.194235545931844,2.194235545931844,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00084,NWSS_nv_554_Treatment plant_90_raw wastewater,2024-06-10,2024-06-10,2024-06-10,1,2.0706848631889727,2.0706848631889727,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00085,NWSS_nv_554_Treatment plant_90_raw wastewater,2024-06-19,2024-06-19,2024-06-19,1,1.9446866936345442,1.9446866936345442,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00086,NWSS_nv_554_Treatment plant_90_raw wastewater,2024-06-25,2024-06-25,2024-06-25,1,2.5423085042154345,2.5423085042154345,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00087,NWSS_nv_554_Treatment plant_90_raw wastewater,2024-11-18,2024-11-19,2024-11-18,2,2.617348563178305,2.3213078611940023,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00088,NWSS_nv_554_Treatment plant_90_raw wastewater,2024-11-25,2024-11-26,2024-11-25,2,2.513557731190059,2.3383402601691285,"rolling_zscore,weekly_pct_change",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00089,NWSS_nv_554_Treatment plant_90_raw wastewater,2024-12-13,2024-12-14,2024-12-13,2,2.6430893643813644,2.3561443709495187,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00090,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-01-15,2025-01-16,2025-01-15,2,2.4909702903399946,2.250657707156532,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00091,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-02-20,2025-02-22,2025-02-20,3,2.5609883486669176,2.193066760717161,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00092,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-03-10,2025-03-17,2025-03-10,8,2.571081477386625,1.5837573516021797,"rolling_zscore,stl_residual,weekly_pct_change,cusum_trend",3,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00093,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-03-25,2025-03-25,2025-03-25,1,1.6185844671660754,1.6185844671660754,"stl_residual,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00094,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-04-17,2025-04-17,2025-04-17,1,2.440217521032776,2.440217521032776,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00095,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-05-20,2025-05-21,2025-05-20,2,2.5328072504328394,2.306628751450245,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00096,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-05-30,2025-05-30,2025-05-30,1,2.248497866659715,2.248497866659715,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00097,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-06-07,2025-06-07,2025-06-07,1,2.1353892427344077,2.1353892427344077,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00098,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-06-28,2025-06-28,2025-06-28,1,2.192492296478928,2.192492296478928,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00099,NWSS_nv_554_Treatment plant_90_raw wastewater,2025-08-08,2025-08-08,2025-08-08,1,2.1775135663789245,2.1775135663789245,"rolling_zscore,cusum_trend",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00100,NWSS_ny_1041_Treatment plant_raw wastewater,2022-07-17,2022-07-17,2022-07-17,1,1.904087140535901,1.904087140535901,"rolling_zscore,stl_residual",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00101,NWSS_ny_1041_Treatment plant_raw wastewater,2022-10-17,2022-10-17,2022-10-17,1,1.930094170880323,1.930094170880323,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00102,NWSS_ny_1041_Treatment plant_raw wastewater,2022-12-07,2022-12-07,2022-12-07,1,1.5494243341289209,1.5494243341289209,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00103,NWSS_ny_1041_Treatment plant_raw wastewater,2023-03-14,2023-03-14,2023-03-14,1,1.3922868456304491,1.3922868456304491,"rolling_zscore,stl_residual",2,environmental,0.6,降雨 36mm，临床数据无对应变化
+EVT-00104,NWSS_ny_1041_Treatment plant_raw wastewater,2023-04-13,2023-04-13,2023-04-13,1,1.5391251698716395,1.5391251698716395,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00105,NWSS_ny_1041_Treatment plant_raw wastewater,2023-08-10,2023-08-10,2023-08-10,1,1.2598162872367114,1.2598162872367114,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00106,NWSS_ny_1041_Treatment plant_raw wastewater,2023-10-05,2023-10-05,2023-10-05,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00107,NWSS_ny_1041_Treatment plant_raw wastewater,2023-12-19,2023-12-19,2023-12-19,1,1.2376263546916078,1.2376263546916078,"rolling_zscore,cusum_trend",2,mixed,0.5,降雨 72mm + 临床数据上升
+EVT-00108,NWSS_ny_1041_Treatment plant_raw wastewater,2023-12-28,2023-12-28,2023-12-28,1,0.0,0.0,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00109,NWSS_ny_1041_Treatment plant_raw wastewater,2024-03-18,2024-03-18,2024-03-18,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00110,NWSS_ny_1041_Treatment plant_raw wastewater,2024-07-25,2024-07-25,2024-07-25,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00111,NWSS_or_934_Treatment plant_raw wastewater,2020-10-27,2020-10-27,2020-10-27,1,1.20780590512687,1.20780590512687,"rolling_zscore,stl_residual",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00112,NWSS_or_934_Treatment plant_raw wastewater,2020-11-02,2020-11-04,2020-11-03,3,1.4636993433803793,0.8380426178387658,"stl_residual,pelt_changepoint",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00113,NWSS_or_934_Treatment plant_raw wastewater,2020-12-29,2020-12-29,2020-12-29,1,1.2424773910491704,1.2424773910491704,"rolling_zscore,stl_residual,cusum_trend",3,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00114,NWSS_or_934_Treatment plant_raw wastewater,2021-03-08,2021-03-08,2021-03-08,1,1.8962833771578795,1.8962833771578795,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00115,NWSS_or_934_Treatment plant_raw wastewater,2021-03-21,2021-03-21,2021-03-21,1,1.6277528410130735,1.6277528410130735,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00116,NWSS_or_934_Treatment plant_raw wastewater,2021-05-02,2021-05-02,2021-05-02,1,1.3541298988602806,1.3541298988602806,"stl_residual,cusum_trend",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00117,NWSS_or_934_Treatment plant_raw wastewater,2021-07-29,2021-07-29,2021-07-29,1,1.3265994181045264,1.3265994181045264,"stl_residual,cusum_trend",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00118,NWSS_or_934_Treatment plant_raw wastewater,2021-08-10,2021-08-12,2021-08-12,3,1.8328493657276073,1.280864937151786,"stl_residual,cusum_trend",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00119,NWSS_or_934_Treatment plant_raw wastewater,2021-09-23,2021-09-23,2021-09-23,1,1.8195689400043609,1.8195689400043609,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00120,NWSS_or_934_Treatment plant_raw wastewater,2021-10-26,2021-10-26,2021-10-26,1,1.91971767653346,1.91971767653346,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00121,NWSS_or_934_Treatment plant_raw wastewater,2021-12-19,2021-12-20,2021-12-20,2,1.1866393661646748,0.7076578570230684,"stl_residual,pelt_changepoint",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00122,NWSS_or_934_Treatment plant_raw wastewater,2022-04-18,2022-04-18,2022-04-18,1,1.1776699914703652,1.1776699914703652,"rolling_zscore,cusum_trend",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00123,NWSS_or_934_Treatment plant_raw wastewater,2022-05-19,2022-05-19,2022-05-19,1,0.7761314017215416,0.7761314017215416,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00124,NWSS_or_934_Treatment plant_raw wastewater,2022-07-19,2022-07-19,2022-07-19,1,1.2258955434486274,1.2258955434486274,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00125,NWSS_or_934_Treatment plant_raw wastewater,2022-10-05,2022-10-05,2022-10-05,1,1.6622517230356482,1.6622517230356482,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00126,NWSS_or_934_Treatment plant_raw wastewater,2022-10-31,2022-10-31,2022-10-31,1,1.8800207657785637,1.8800207657785637,"rolling_zscore,pelt_changepoint",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00127,NWSS_or_934_Treatment plant_raw wastewater,2022-11-30,2022-11-30,2022-11-30,1,1.903949813331172,1.903949813331172,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00128,NWSS_or_934_Treatment plant_raw wastewater,2022-12-27,2022-12-27,2022-12-27,1,1.4240158171935062,1.4240158171935062,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00129,NWSS_or_934_Treatment plant_raw wastewater,2023-02-13,2023-02-14,2023-02-13,2,1.6774955443991104,1.044863699694083,"rolling_zscore,stl_residual,cusum_trend",3,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00130,NWSS_or_934_Treatment plant_raw wastewater,2023-03-05,2023-03-05,2023-03-05,1,1.464152459004142,1.464152459004142,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00131,NWSS_or_934_Treatment plant_raw wastewater,2023-04-18,2023-04-18,2023-04-18,1,1.8969199930447953,1.8969199930447953,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00132,NWSS_or_934_Treatment plant_raw wastewater,2023-08-28,2023-08-28,2023-08-28,1,0.0,0.0,"rolling_zscore,stl_residual",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00133,NWSS_or_934_Treatment plant_raw wastewater,2024-07-10,2024-07-10,2024-07-10,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00134,NWSS_or_934_Treatment plant_raw wastewater,2024-10-01,2024-10-01,2024-10-01,1,0.0,0.0,"rolling_zscore,stl_residual,cusum_trend",3,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00135,NWSS_or_934_Treatment plant_raw wastewater,2025-08-20,2025-08-20,2025-08-20,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00136,NWSS_pa_1533_Treatment plant_raw wastewater,2023-08-16,2023-08-16,2023-08-16,1,1.5381396870843302,1.5381396870843302,"stl_residual,pelt_changepoint",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00137,NWSS_pa_1533_Treatment plant_raw wastewater,2023-08-23,2023-08-23,2023-08-23,1,1.5673361322111987,1.5673361322111987,"rolling_zscore,cusum_trend",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00138,NWSS_pa_1533_Treatment plant_raw wastewater,2023-08-28,2023-08-30,2023-08-28,3,1.2636047707256126,0.6560394482163241,"rolling_zscore,stl_residual,cusum_trend",3,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00139,NWSS_pa_1533_Treatment plant_raw wastewater,2023-12-06,2023-12-06,2023-12-06,1,1.710692499053003,1.710692499053003,"stl_residual,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00140,NWSS_pa_1533_Treatment plant_raw wastewater,2024-03-02,2024-03-02,2024-03-02,1,1.612982697033151,1.612982697033151,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00141,NWSS_pa_1533_Treatment plant_raw wastewater,2024-05-18,2024-05-18,2024-05-18,1,1.7286703471611513,1.7286703471611513,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00142,NWSS_pa_1533_Treatment plant_raw wastewater,2024-07-20,2024-07-20,2024-07-20,1,1.547598550691216,1.547598550691216,"stl_residual,pelt_changepoint",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00143,NWSS_pa_1533_Treatment plant_raw wastewater,2024-07-24,2024-07-24,2024-07-24,1,0.8385717079601058,0.8385717079601058,"pelt_changepoint,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00144,NWSS_pa_1533_Treatment plant_raw wastewater,2024-08-31,2024-08-31,2024-08-31,1,1.7015495625804624,1.7015495625804624,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00145,NWSS_pa_1533_Treatment plant_raw wastewater,2024-09-04,2024-09-04,2024-09-04,1,1.5335730628070197,1.5335730628070197,"rolling_zscore,stl_residual,cusum_trend",3,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00146,NWSS_pa_1533_Treatment plant_raw wastewater,2024-09-28,2024-10-02,2024-09-30,5,1.5479960571881493,0.9925064747732354,"pelt_changepoint,cusum_trend",2,environmental,0.6,降雨 33mm，临床数据无对应变化
+EVT-00147,NWSS_pa_1533_Treatment plant_raw wastewater,2024-11-04,2024-11-04,2024-11-04,1,1.4379396196563181,1.4379396196563181,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00148,NWSS_pa_1533_Treatment plant_raw wastewater,2024-12-28,2024-12-28,2024-12-28,1,0.487634874913495,0.487634874913495,"rolling_zscore,cusum_trend",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00149,NWSS_pa_1533_Treatment plant_raw wastewater,2025-04-14,2025-04-16,2025-04-16,3,1.0290630403950236,0.5145315201975118,"rolling_zscore,stl_residual,pelt_changepoint",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00150,NWSS_pa_1533_Treatment plant_raw wastewater,2025-05-24,2025-05-24,2025-05-24,1,1.4152881912728077,1.4152881912728077,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00151,NWSS_tx_3001_Treatment plant_raw wastewater,2023-07-26,2023-07-26,2023-07-26,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00152,NWSS_tx_3001_Treatment plant_raw wastewater,2024-03-27,2024-03-27,2024-03-27,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00153,NWSS_tx_3001_Treatment plant_raw wastewater,2024-06-03,2024-06-03,2024-06-03,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00154,NWSS_tx_3001_Treatment plant_raw wastewater,2024-10-28,2024-10-28,2024-10-28,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00155,NWSS_tx_3001_Treatment plant_raw wastewater,2024-12-20,2024-12-20,2024-12-20,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00156,NWSS_wa_759_Treatment plant_raw wastewater,2023-10-25,2023-10-25,2023-10-25,1,1.2183027073678792,1.2183027073678792,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00157,NWSS_wa_759_Treatment plant_raw wastewater,2024-06-14,2024-06-14,2024-06-14,1,1.7260610762529014,1.7260610762529014,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00158,NWSS_wa_759_Treatment plant_raw wastewater,2024-06-26,2024-06-26,2024-06-26,1,1.5182883217148362,1.5182883217148362,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00159,NWSS_wa_759_Treatment plant_raw wastewater,2024-08-14,2024-08-14,2024-08-14,1,1.4165893739175552,1.4165893739175552,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00160,NWSS_wa_759_Treatment plant_raw wastewater,2024-10-07,2024-10-07,2024-10-07,1,1.554870742387126,1.554870742387126,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00161,NWSS_wa_759_Treatment plant_raw wastewater,2025-08-08,2025-08-08,2025-08-08,1,1.6875102236292052,1.6875102236292052,"rolling_zscore,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00162,NWSS_wi_231_Treatment plant_raw wastewater,2022-02-03,2022-02-03,2022-02-03,1,2.2901767177362804,2.2901767177362804,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00163,NWSS_wi_231_Treatment plant_raw wastewater,2022-03-10,2022-03-10,2022-03-10,1,1.7133810988059883,1.7133810988059883,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00164,NWSS_wi_231_Treatment plant_raw wastewater,2022-05-18,2022-05-18,2022-05-18,1,2.3046764391374217,2.3046764391374217,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00165,NWSS_wi_231_Treatment plant_raw wastewater,2022-07-21,2022-07-21,2022-07-21,1,2.129948173074018,2.129948173074018,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00166,NWSS_wi_231_Treatment plant_raw wastewater,2022-08-15,2022-08-15,2022-08-15,1,1.9882484135458005,1.9882484135458005,"rolling_zscore,stl_residual,pelt_changepoint",3,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00167,NWSS_wi_231_Treatment plant_raw wastewater,2022-09-19,2022-09-19,2022-09-19,1,1.976698780851041,1.976698780851041,"rolling_zscore,stl_residual,cusum_trend",3,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00168,NWSS_wi_231_Treatment plant_raw wastewater,2022-10-27,2022-10-27,2022-10-27,1,2.17994347459736,2.17994347459736,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00169,NWSS_wi_231_Treatment plant_raw wastewater,2022-11-09,2022-11-09,2022-11-09,1,2.2926909214081976,2.2926909214081976,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00170,NWSS_wi_231_Treatment plant_raw wastewater,2022-11-19,2022-11-19,2022-11-19,1,1.950504592730296,1.950504592730296,"stl_residual,pelt_changepoint",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00171,NWSS_wi_231_Treatment plant_raw wastewater,2023-04-17,2023-04-17,2023-04-17,1,2.1682887809223566,2.1682887809223566,"rolling_zscore,pelt_changepoint",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00172,NWSS_wi_231_Treatment plant_raw wastewater,2023-04-27,2023-04-27,2023-04-27,1,2.194798291295455,2.194798291295455,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00173,NWSS_wi_231_Treatment plant_raw wastewater,2023-07-16,2023-07-16,2023-07-16,1,1.9879332434283072,1.9879332434283072,"rolling_zscore,pelt_changepoint",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00174,NWSS_wi_231_Treatment plant_raw wastewater,2023-07-22,2023-07-23,2023-07-22,2,1.0242401150250922,0.544154633387728,"stl_residual,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00175,NWSS_wi_231_Treatment plant_raw wastewater,2023-07-27,2023-07-27,2023-07-27,1,1.9459183218794085,1.9459183218794085,"rolling_zscore,cusum_trend",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00176,NWSS_wi_231_Treatment plant_raw wastewater,2023-09-11,2023-09-13,2023-09-11,3,2.2560404109646663,1.7092044321759443,"rolling_zscore,stl_residual,cusum_trend",3,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00177,NWSS_wi_231_Treatment plant_raw wastewater,2023-11-06,2023-11-06,2023-11-06,1,2.3625103609120472,2.3625103609120472,"rolling_zscore,stl_residual,cusum_trend",3,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00178,NWSS_wi_231_Treatment plant_raw wastewater,2024-01-29,2024-01-29,2024-01-29,1,1.7819398262035049,1.7819398262035049,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00179,NWSS_wi_231_Treatment plant_raw wastewater,2024-04-22,2024-04-22,2024-04-22,1,0.6880611831898172,0.6880611831898172,"stl_residual,cusum_trend",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00180,NWSS_wi_231_Treatment plant_raw wastewater,2024-07-18,2024-07-18,2024-07-18,1,2.0892965082661377,2.0892965082661377,"rolling_zscore,stl_residual,cusum_trend",3,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00181,NWSS_wi_231_Treatment plant_raw wastewater,2024-09-19,2024-09-19,2024-09-19,1,2.104869738583835,2.104869738583835,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00182,NWSS_wi_231_Treatment plant_raw wastewater,2024-10-01,2024-10-01,2024-10-01,1,2.070045393704434,2.070045393704434,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00183,NWSS_wi_231_Treatment plant_raw wastewater,2024-10-31,2024-10-31,2024-10-31,1,2.432092361106184,2.432092361106184,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00184,NWSS_wi_231_Treatment plant_raw wastewater,2024-12-04,2024-12-05,2024-12-04,2,2.312199187653445,1.2908803150134824,"pelt_changepoint,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00185,NWSS_wi_231_Treatment plant_raw wastewater,2025-01-13,2025-01-13,2025-01-13,1,1.9339025763999238,1.9339025763999238,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00186,NWSS_wi_231_Treatment plant_raw wastewater,2025-01-28,2025-01-28,2025-01-28,1,2.2500571860449092,2.2500571860449092,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00187,NWSS_wi_231_Treatment plant_raw wastewater,2025-04-19,2025-04-21,2025-04-21,3,1.87629118647428,1.641402796621163,"rolling_zscore,stl_residual,cusum_trend",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00188,NWSS_wi_231_Treatment plant_raw wastewater,2025-05-03,2025-05-03,2025-05-03,1,1.3639035873883811,1.3639035873883811,"stl_residual,pelt_changepoint",2,environmental,0.6,降雨 66mm，临床数据无对应变化
+EVT-00189,NWSS_wi_231_Treatment plant_raw wastewater,2025-05-15,2025-05-15,2025-05-15,1,2.119162184898644,2.119162184898644,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00190,NWSS_wi_231_Treatment plant_raw wastewater,2025-06-23,2025-06-23,2025-06-23,1,1.5670814972832794,1.5670814972832794,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00191,NWSS_wi_231_Treatment plant_raw wastewater,2025-07-17,2025-07-17,2025-07-17,1,0.6428320343971757,0.6428320343971757,"stl_residual,pelt_changepoint",2,environmental,0.6,降雨 29mm，临床数据无对应变化
+EVT-00192,NWSS_wi_231_Treatment plant_raw wastewater,2025-07-29,2025-07-29,2025-07-29,1,2.231668549545797,2.231668549545797,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00193,NWSS_wy_2628_Treatment plant_raw wastewater,2023-09-13,2023-09-13,2023-09-13,1,0.0,0.0,"rolling_zscore,stl_residual",2,sampling,0.7,孤立单点 spike，前后数据正常
+EVT-00194,NWSS_wy_2628_Treatment plant_raw wastewater,2024-01-02,2024-01-02,2024-01-02,1,1.6436014554528007,1.6436014554528007,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00195,NWSS_wy_2628_Treatment plant_raw wastewater,2024-03-06,2024-03-06,2024-03-06,1,0.0,0.0,"rolling_zscore,stl_residual",2,epidemic,0.6,临床数据在 14 天内跟随上升，无显著降雨
+EVT-00196,NWSS_wy_2628_Treatment plant_raw wastewater,2024-03-12,2024-03-12,2024-03-12,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00197,NWSS_wy_2628_Treatment plant_raw wastewater,2025-03-26,2025-03-26,2025-03-26,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00198,NWSS_wy_2628_Treatment plant_raw wastewater,2025-06-11,2025-06-11,2025-06-11,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随
+EVT-00199,NWSS_wy_2628_Treatment plant_raw wastewater,2025-07-30,2025-07-30,2025-07-30,1,0.0,0.0,"rolling_zscore,stl_residual",2,uncertain,0.3,无明确的降雨事件或临床跟随

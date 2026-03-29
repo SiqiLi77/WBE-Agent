@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Web / Node
+web/node_modules/
+web/.next/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env / secrets
+.env
+web/.env.local
+web/.env
+
+# Raw data (too large; download via prepare_data.py)
+data/raw/
+data/processed/
+
+# Intermediate experiment outputs (reproducible via scripts)
+outputs/logs/
+outputs/ablation*/
+outputs/labeling*/
+outputs/smoke_*.csv
+outputs/quality_report/
+outputs/hhs_16states.csv
+outputs/tier*_*.csv
+outputs/wave_validation/
+outputs/tier2_validation/
+
+# Paper and manuscript (not public)
+paper/
+docs/10_paper_outline.md
+docs/10_paper_outline.pdf
+docs/11_paper_structure.md
+docs/12_paper_chinese_summary.md
+docs/12_paper_chinese_summary.pdf
+docs/13_paper_easy_chinese.md
+docs/13_paper_easy_chinese.pdf
+docs/codex_prompt.md
+
+# LaTeX artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+
+# Temporary / scratch
+tmp/
+tmp.md
+tmp.bash
+result.json
+TASK_summary.md
+
+# IDE
+.vscode/
+.kiro/
+
+# Misc
+output/

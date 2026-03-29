@@ -1,0 +1,118 @@
+# ============================================================
+# WBE-Agent 全局配置
+# ============================================================
+
+# --- 路径配置 ---
+paths:
+  # 原始数据（大文件，不入版本控制）
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  labeled_data_dir: "data/labeled"
+  outputs_dir: "outputs"
+
+  # 已有产出（从之前的分析中继承）
+  legacy_outputs_dir: "D:/agent/outputs"
+
+  # 原始数据文件
+  nwss_raw_csv: "data/raw/NWSS_Public_SARS-CoV-2_Concentration_in_Wastewater_Data.csv"
+  hhs_raw_csv: "data/raw/COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_State.csv"
+  ghcn_daily_dir: "data/raw/ghcn_daily"
+  usgs_cache_dir: "data/raw/usgs_cache"
+  variants_raw_csv: "data/raw/cdc_variants.csv"
+
+  # 处理后的数据文件
+  nwss_processed: "data/processed/nwss_cleaned.parquet"
+  hhs_processed: "data/processed/hhs_cleaned.parquet"
+  noaa_processed: "data/processed/noaa_matched.parquet"
+  usgs_processed: "data/processed/usgs_matched.parquet"
+  variants_processed: "data/processed/variants_aligned.parquet"
+  merged_database: "data/processed/merged_multisource.parquet"
+
+  # 站点清单
+  tier1_sites: "outputs/tier1_core_final_sites.csv"
+  tier2_sites: "outputs/tier2_extension_sites.csv"
+  tier3_sites: "outputs/tier3_challenge_sites.csv"
+  hhs_overlap: "outputs/hhs_nwss_overlap.csv"
+
+# --- NWSS 预处理参数 ---
+nwss:
+  normalization_filter: "flow-population"
+  duplicate_strategy: "mean"          # mean | first | last
+  zero_handling: "lod_half"           # lod_half | keep | drop
+  default_lod: 100                    # 默认检测下限 (copies/L)，各站点可能不同
+  rolling_windows: [7, 14]            # 滚动窗口天数
+  rolling_min_periods_ratio: 0.57     # min_periods = window * ratio (7天窗口→4天)
+
+# --- 空间匹配参数 ---
+spatial_matching:
+  noaa_max_distance_km: 50
+  noaa_min_coverage: 0.80             # 气象站在 NWSS 时间窗口内的数据覆盖率
+  usgs_max_distance_km: 30
+  usgs_fallback_to_precipitation: true
+
+# --- 异常检测参数 ---
+anomaly_detection:
+  methods:
+    rolling_zscore:
+      enabled: true
+      window: 7
+      threshold: 2.0
+    stl_residual:
+      enabled: true
+      period: 7
+      threshold: 2.0
+    weekly_pct_change:
+      enabled: true
+      threshold: 1.0                  # 100% 周环比变化
+    pelt_changepoint:
+      enabled: true
+      penalty: "bic"
+    cusum_trend:
+      enabled: true
+      window: 14
+      threshold: 5.0
+  ensemble_min_votes: 2               # 至少 N 种方法同时检测到
+  event_merge_gap_days: 3             # 间隔 ≤ N 天的异常合并为同一事件
+
+# --- Agent 配置 ---
+agent:
+  model: "openai/gpt-4o-mini"
+  temperature: 0
+  max_tool_calls: 10
+  api_base: "https://openrouter.ai/api/v1"
+  api_key: ""  # <-- Set your OpenRouter API Key here (sk-or-v1-xxx) or use OPENROUTER_API_KEY env var
+  nearby_sites_radius_km: 100
+  clinical_lag_days: 14               # 污水信号领先临床数据的最大天数
+  output_format: "json"
+
+  # 领域知识阈值（需文献支撑）
+  domain_knowledge:
+    rainfall_dilution_threshold_mm: 10      # 日降雨 >10mm 可能产生稀释
+    rainfall_significant_mm: 25             # 日降雨 >25mm 显著稀释
+    temp_high_degradation_c: 25             # >25°C RNA 降解加速
+    temp_low_stable_c: 10                   # <10°C RNA 相对稳定
+    cso_flow_percentile: 90                 # 流量超过 90th percentile 可能触发 CSO
+    clinical_followup_threshold_pct: 20     # 住院数上升 >20% 视为临床跟随
+
+# --- 评估配置 ---
+evaluation:
+  tier2_target_events: 50
+  event_balance:
+    epidemic: [15, 20]
+    environmental: [15, 20]
+    sampling: [5, 10]
+    mixed: [5, 10]
+    uncertain: [0, 5]
+  baselines:
+    - rule_based
+    - logistic_regression
+    - random_forest
+    - xgboost
+    - zero_shot_llm
+    - few_shot_llm
+
+# --- 日志配置 ---
+logging:
+  level: "INFO"
+  log_dir: "outputs/logs"
+  log_agent_traces: true              # 记录 Agent 的完整 tool call 链

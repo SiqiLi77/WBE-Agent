@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f4f8f8;
+  --text: #122731;
+  --card: #ffffff;
+  --border: #d3e1e4;
+  --accent: #1d8f7a;
+  --accent-soft: #e0f5ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 12% 4%, rgba(28, 143, 122, 0.24), transparent 30%),
+    radial-gradient(circle at 90% 8%, rgba(245, 138, 54, 0.17), transparent 30%),
+    linear-gradient(180deg, #f7fbfb 0%, #ecf4f4 100%);
+  font-family: var(--font-sora), "Segoe UI", sans-serif;
+}
+
+.mono {
+  font-family: var(--font-mono), "Consolas", monospace;
+}
+
+.panel {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--card);
+  box-shadow: 0 12px 36px rgba(15, 44, 56, 0.12);
+}
+
+.label-pill {
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid var(--border);
+  background: #f7fbfb;
+}
+
+.fade-up {
+  animation: rise 520ms ease-out both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
